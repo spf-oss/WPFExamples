@@ -160,7 +160,6 @@
                 </Border>
 
                 <UniformGrid Grid.Row="2" Columns="4" VerticalAlignment="Center">
-
                     <Border CornerRadius="5" Background="White" Margin="10">
                         <Border.Effect>
                             <DropShadowEffect 
@@ -380,9 +379,7 @@
                         </Grid>
                     </Border>
 
-                    <Border  CornerRadius="5" 
-                             Background="White"
-                             Margin="10">
+                    <Border  CornerRadius="5" Background="White" Margin="10">
                         <Border.Effect>
                             <DropShadowEffect Color="#F2F2F2" 
                                               ShadowDepth="10" 
@@ -477,7 +474,6 @@
                            VerticalAlignment="Center"
                            FontSize="15"
                            FontWeight="Bold"/>
-
                 <TextBlock Text="View More"
                            VerticalAlignment="Center"
                            HorizontalAlignment="Right"
