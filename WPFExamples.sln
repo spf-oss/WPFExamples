@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32721.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFExamples", "WPFExamples\WPFExamples.csproj", "{B2C224F8-1C5F-4F8B-963C-D6F90319F8C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{ED035418-4976-450B-95F8-4A86864D2207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "圆形进度条", "Controls\圆形进度条\圆形进度条.csproj", "{E8AC5B82-9401-4812-9B1E-FD7E0583A652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{B2C224F8-1C5F-4F8B-963C-D6F90319F8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C224F8-1C5F-4F8B-963C-D6F90319F8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C224F8-1C5F-4F8B-963C-D6F90319F8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AC5B82-9401-4812-9B1E-FD7E0583A652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AC5B82-9401-4812-9B1E-FD7E0583A652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AC5B82-9401-4812-9B1E-FD7E0583A652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AC5B82-9401-4812-9B1E-FD7E0583A652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8AC5B82-9401-4812-9B1E-FD7E0583A652} = {ED035418-4976-450B-95F8-4A86864D2207}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4C317B7-9FCD-4827-8A13-1BE64E7B1421}
