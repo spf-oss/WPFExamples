@@ -158,7 +158,6 @@
                         </TextBox>
                     </Grid>
                 </Border>
-                <!--vs内容修改-->
                 <UniformGrid Grid.Row="2" Columns="4" VerticalAlignment="Center">
                     <Border CornerRadius="5" Background="White" Margin="10">
                         <Border.Effect>
