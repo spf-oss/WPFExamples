@@ -376,7 +376,7 @@
                             </StackPanel>
                         </Grid>
                     </Border>
-
+                    <!--vs修改-->
                     <Border  CornerRadius="5" Background="White" Margin="10">
                         <Border.Effect>
                             <DropShadowEffect Color="#F2F2F2" 
