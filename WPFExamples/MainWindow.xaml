@@ -67,7 +67,6 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
 
-                <!--vs修改不冲突内容-->
                 <StackPanel VerticalAlignment="Top" 
                             Orientation="Horizontal" 
                             Margin="10 0 0 0">

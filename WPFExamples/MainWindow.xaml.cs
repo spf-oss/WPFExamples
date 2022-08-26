@@ -25,5 +25,4 @@ namespace WPFExamples
             InitializeComponent();
         }
     }
-    //vs 
 }
