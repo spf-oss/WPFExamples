@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:基础控件样式库"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <local:MultiBooleanAndConverter x:Key="MultiBooleanAndConverter" />
+    </Window.Resources>
     <Grid>
-        <Button Template="{StaticResource defaultBtn}" Content="按钮" Width="100" Height="200"/>
+        <Button Content="{Binding Name}"  Width="100" Height="50">
+            <Button.IsEnabled>
+                <MultiBinding Converter="{StaticResource MultiBooleanAndConverter}">
+                    <Binding Path="IsFeatureEnabled" Source="{x:Static local:GlobalVariables.Instance}"/>
+                    <Binding Path="IsEnabled" />
+                    <!-- 添加其他需要进行 && 处理的属性绑定 -->
+                </MultiBinding>
+            </Button.IsEnabled>
+        </Button>
     </Grid>
 </Window>

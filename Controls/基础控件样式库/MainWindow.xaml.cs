@@ -19,6 +19,8 @@ namespace 基础控件样式库
         public MainWindow()
         {
             InitializeComponent();
+
+            DataContext = new MainWindowViewModel();
         }
     }
 }

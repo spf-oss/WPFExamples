@@ -25,6 +25,4 @@ namespace WPFExamples
             InitializeComponent();
         }
     }
-    //vs 修改
-    //GitHub修改
 }
